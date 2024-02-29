@@ -1,0 +1,17 @@
+Index: src/main/java/org/example/interpretergui/ProgramController2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/interpretergui/ProgramController2.java b/src/main/java/org/example/interpretergui/ProgramController2.java
+--- a/src/main/java/org/example/interpretergui/ProgramController2.java	
++++ b/src/main/java/org/example/interpretergui/ProgramController2.java	(date 1704200516561)
+@@ -76,7 +76,7 @@
+         try {
+             if(!programList.isEmpty()){
+                 ProgramState mainProgram = programList.getFirst();
+-                HeapInterface<Value> heap = mainProgram.getHeap();
++                HeapInterface<> heap = mainProgram.getHeap();
+ 
+             }
+             else{

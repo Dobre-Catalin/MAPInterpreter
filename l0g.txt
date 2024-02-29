@@ -1,0 +1,5952 @@
+Program ID: {ID=9
+executionStack={(Reference(int_val) v1;(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))))); }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); Reference(int_val) v1; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); Reference(int_val) v1; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); int_val cnt; }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); int_val cnt; }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); new(v1, 1); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); new(v1, 1); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); createSemaphore(cnt, readHeap(v1)); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); createSemaphore(cnt, readHeap(v1)); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); print(readHeap(v1) - 1); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); print(readHeap(v1) - 1); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 2); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 2); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(int_val a;(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))))); }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); int_val a; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); int_val a; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); int_val b; }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); int_val b; }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); int_val c; }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); int_val c; }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); a=1; }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); a=1; }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); b=2; }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); b=2; }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); c=5; }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); c=5; }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))}; }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))}; }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (IF(a * 10==b * c) THEN ((print(a);print(b))) ELSE((IF(a * 10==10) THEN ((print(100);print(200))) ELSE(print(300))))); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (IF(a * 10==b * c) THEN ((print(a);print(b))) ELSE((IF(a * 10==10) THEN ((print(100);print(200))) ELSE(print(300))))); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (print(a);print(b)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (print(a);print(b)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); print(a); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); print(a); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); }
+symbolTable={a->1; b->2; c->5; }
+output={1; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); }
+symbolTable={a->1; b->2; c->5; }
+output={1; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); }
+symbolTable={a->1; b->2; c->5; }
+output={1; 2; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); }
+symbolTable={a->1; b->2; c->5; }
+output={1; 2; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={a->1; b->2; c->5; }
+output={1; 2; 300; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(Reference(int_val) v1;(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))))); }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); Reference(int_val) v1; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); Reference(int_val) v1; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); int_val cnt; }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); int_val cnt; }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); new(v1, 1); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); new(v1, 1); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); createSemaphore(cnt, readHeap(v1)); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); createSemaphore(cnt, readHeap(v1)); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 2); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 2); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); print(readHeap(v1) - 1); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); print(readHeap(v1) - 1); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(Reference(int_val) v1;(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))))); }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); Reference(int_val) v1; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); Reference(int_val) v1; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); int_val cnt; }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); int_val cnt; }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); new(v1, 1); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); new(v1, 1); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); createSemaphore(cnt, readHeap(v1)); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); createSemaphore(cnt, readHeap(v1)); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 2); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 2); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={(print(readHeap(v1) - 1);release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); print(readHeap(v1) - 1); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); print(readHeap(v1) - 1); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[9]}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(int_val a;(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))))); }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); int_val a; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); int_val a; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); int_val b; }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); int_val b; }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); int_val c; }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); int_val c; }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); a=1; }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); a=1; }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); b=2; }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); b=2; }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); c=5; }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); c=5; }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))}; }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))}; }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (IF(a * 10==b * c) THEN ((print(a);print(b))) ELSE((IF(a * 10==10) THEN ((print(100);print(200))) ELSE(print(300))))); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (IF(a * 10==b * c) THEN ((print(a);print(b))) ELSE((IF(a * 10==10) THEN ((print(100);print(200))) ELSE(print(300))))); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (print(a);print(b)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (print(a);print(b)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); print(a); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); print(a); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); }
+symbolTable={a->1; b->2; c->5; }
+output={1; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); }
+symbolTable={a->1; b->2; c->5; }
+output={1; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); }
+symbolTable={a->1; b->2; c->5; }
+output={1; 2; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); }
+symbolTable={a->1; b->2; c->5; }
+output={1; 2; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={a->1; b->2; c->5; }
+output={1; 2; 300; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(Reference(int_val) v1;(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))))); }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); Reference(int_val) v1; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); Reference(int_val) v1; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); int_val cnt; }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); int_val cnt; }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); new(v1, 1); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); new(v1, 1); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); createSemaphore(cnt, readHeap(v1)); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); createSemaphore(cnt, readHeap(v1)); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); print(readHeap(v1) - 1); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); print(readHeap(v1) - 1); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 2); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 2); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=12
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 9; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=9
+executionStack={(int_val a;(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))))); }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); int_val a; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); int_val a; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val b;(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))))); }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); int_val b; }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); int_val b; }
+symbolTable={a->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(int_val c;(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))))); }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); int_val c; }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); int_val c; }
+symbolTable={a->0; b->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(a=1;(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))))); }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); a=1; }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); a=1; }
+symbolTable={a->0; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(b=2;(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)))); }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); b=2; }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); b=2; }
+symbolTable={a->1; b->0; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(c=5;(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300))); }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); c=5; }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); c=5; }
+symbolTable={a->1; b->2; c->0; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={(switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))};print(300)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))}; }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); switch(a * 10){(case(b * c): (print(a);print(b)))(case(10): (print(100);print(200)))(default: print(300))}; }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (IF(a * 10==b * c) THEN ((print(a);print(b))) ELSE((IF(a * 10==10) THEN ((print(100);print(200))) ELSE(print(300))))); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (IF(a * 10==b * c) THEN ((print(a);print(b))) ELSE((IF(a * 10==10) THEN ((print(100);print(200))) ELSE(print(300))))); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (print(a);print(b)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); (print(a);print(b)); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); print(a); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); print(a); }
+symbolTable={a->1; b->2; c->5; }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); }
+symbolTable={a->1; b->2; c->5; }
+output={1; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); print(b); }
+symbolTable={a->1; b->2; c->5; }
+output={1; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); }
+symbolTable={a->1; b->2; c->5; }
+output={1; 2; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={print(300); }
+symbolTable={a->1; b->2; c->5; }
+output={1; 2; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=9
+executionStack={}
+symbolTable={a->1; b->2; c->5; }
+output={1; 2; 300; }
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(Reference(int_val) v1;(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))))); }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); Reference(int_val) v1; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); Reference(int_val) v1; }
+symbolTable={}
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(int_val cnt;(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))))); }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); int_val cnt; }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); int_val cnt; }
+symbolTable={v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(new(v1, 1);(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))))); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); new(v1, 1); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); new(v1, 1); }
+symbolTable={cnt->0; v1->(0, int_val); }
+output={}
+fileTable={}
+heap={}
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(createSemaphore(cnt, readHeap(v1));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))))); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); createSemaphore(cnt, readHeap(v1)); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); createSemaphore(cnt, readHeap(v1)); }
+symbolTable={cnt->0; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))));(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))));(acquire(cnt);(print(readHeap(v1) - 1);release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); fork((acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(acquire(cnt);(print(readHeap(v1) - 1);release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(acquire(cnt);(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 1, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={}
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=11
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[11]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 10);(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt)))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); writeHeap(v1, readHeap(v1) * 10); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 10, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(writeHeap(v1, readHeap(v1) * 2);(print(readHeap(v1));release(cnt))); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 2); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(print(readHeap(v1));release(cnt)); writeHeap(v1, readHeap(v1) * 2); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 100, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={(print(readHeap(v1));release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={release(cnt); print(readHeap(v1)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=12
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[12]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=12
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); acquire(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=12
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={(print(readHeap(v1) - 1);release(cnt)); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); print(readHeap(v1) - 1); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); print(readHeap(v1) - 1); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={release(cnt); }
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=12
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[10]}
+}
+Program ID: {ID=10
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=11
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
+Program ID: {ID=12
+executionStack={}
+symbolTable={cnt->1; v1->(1, int_val); }
+output={10; 200; 199; }
+fileTable={}
+heap={1 -> 200, }
+semaphoreTable={1=1=[]}
+}
